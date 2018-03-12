@@ -2,7 +2,9 @@
 A simple circuit breaker library to provide reliability
 
 Example:
+
 `create(primaryFunction, secondaryFunction, onErrorTryOther, shouldProbe)`
+
 ```
 const cb = create(()=>{
   if(Math.random() < 0.5) {
