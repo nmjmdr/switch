@@ -1,0 +1,16 @@
+{
+  "name": "switch",
+  "version": "1.0.0",
+  "description": "A simple circuit breaker for function invocations (promises)",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha *.spec.js"
+  },
+  "author": "nmjmdr",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.4",
+    "sinon": "^4.4.3"
+  }
+}
